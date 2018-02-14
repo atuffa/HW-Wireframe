@@ -1,0 +1,122 @@
+/*-- Body --*/
+body{
+    background-color: #777;
+    max-width: 960px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    margin:10px auto 40px;
+
+}
+
+/*--Header --*/
+
+.header {
+    background-color: #ebebeb;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header nav {
+    background-color: #ebebeb;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+/*-- Main  --*/
+
+/*-- marginalizing and floating the aside class--*/
+.section {
+    float: left;
+    width: 495px;
+    background-color: #ebebeb;
+    margin-right: 20px;
+    text-align: center;
+    padding: 0px 0px 5px;
+    height: 210px;
+    
+}
+
+/* marginalizing and floating the aside class*/
+.aside {
+    float: left;
+    width: 445px;
+    background-color: #ebebeb;
+    min-height: 205px;
+    text-align: center;
+    padding: 5px 0px;
+
+}
+
+/* --Clear elements after float -- */
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+/* marginalizing the section part*/
+
+.section h4{
+    margin:0px;
+    padding:20px 0px;
+   
+  
+}
+
+/* marginalizing the article in section class*/
+
+.article {
+    position: relative;
+    left: 7px;
+    background-color: #777;
+    max-width: 481px;
+    height: 150px;
+    margin-bottom: 12px;
+    
+}
+
+/* marginalizing the heading element within the section class*/
+
+.article h5{
+    margin: 0px 5px;
+    padding: 10px 0px;
+    
+}
+
+/* marginalizing the article in section class*/
+
+h3 {
+    background-color: #ebebeb;
+    padding: 8px;
+    max-width: 430px;
+    position: relative;
+    left: 20px;
+    margin: 5px 0px;
+   
+}
+
+/* marginalizing the paragraph in section class*/
+
+p {
+    background-color: #ebebeb;
+    padding: 8px;
+    max-width: 430px;
+    position: relative;
+    left: 20px;
+    margin-bottom: 10px;
+   
+}
+
+/*-- Footer--*/
+
+.footer {
+    background-color: #ebebeb;
+    padding: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
